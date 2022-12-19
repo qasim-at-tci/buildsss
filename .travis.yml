@@ -1,0 +1,10 @@
+arch: arm64
+os: linux
+dist: focal
+
+language: node_js
+node_js:
+  - node
+
+install: skip
+script: true
