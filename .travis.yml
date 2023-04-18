@@ -1,10 +1,7 @@
-#arch: arm64
 os: linux
 dist: focal
-
-language: node_js
-node_js:
-  - node
-
-install: skip
-script: true
+language: ruby
+rvm:
+  - 2.7
+script:
+  - ruby -e '100100.times { puts "testing job log limit.." }'
