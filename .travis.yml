@@ -1,8 +1,4 @@
 language: shell
 install: skip
 
-scripts:
-  - curl -fsSL https://get.docker.com -o get-docker.sh
-  - sh get-docker.sh
-  - sudo docker build .
-  - sudo docker images
+scripts: docker version
