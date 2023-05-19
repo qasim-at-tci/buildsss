@@ -2,4 +2,4 @@ language: shell
 install: skip
 
 scripts:
-  - docker version
+  - sudo docker version
