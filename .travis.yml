@@ -2,4 +2,5 @@ language: shell
 install: skip
 
 scripts:
-  - sudo docker version
+  - sudo docker build .
+  - sudo docker images
