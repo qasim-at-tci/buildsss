@@ -1,5 +1,7 @@
 language: generic
 install: skip
+services:
+  - docker
 scripts:
   - docker build .
   - docker images
