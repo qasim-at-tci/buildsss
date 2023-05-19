@@ -1,4 +1,6 @@
 language: shell
 install: skip
 
-scripts: docker version
+scripts:
+  - sudo apt update
+  - docker version
