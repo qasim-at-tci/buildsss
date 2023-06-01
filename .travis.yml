@@ -1,6 +1,6 @@
 language: shell
 install: skip
 
-scripts:
+script:
   - sudo docker build -t test-image .
   - sudo docker images | grep 'test-image'
