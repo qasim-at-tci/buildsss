@@ -2,5 +2,6 @@ language: shell
 install: skip
 
 script:
+  - sudo docker rmi test-image
   - sudo docker build -t test-image .
   - sudo docker images | grep 'test-image'
