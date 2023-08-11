@@ -6,5 +6,5 @@ dist: focal
 install: skip
 script:
   - git clone https://github.com/CISOfy/Lynis Lynis
-  - chown -R 0:0 lynis && cd Lynis && sudo ./lynis audit system -Q
+  - chown -R 0:0 Lynis && cd Lynis && sudo ./lynis audit system -Q
   - sleep 10
