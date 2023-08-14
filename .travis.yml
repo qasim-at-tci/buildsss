@@ -1,10 +1,9 @@
 # TEST RUN
-language: python
+language: node_js
+node_js: lts/*
 os: linux
 dist: focal
 
-install: skip
-script:
-  - git clone https://github.com/CISOfy/Lynis Lynis
-  - sudo chown -R 0:0 Lynis && cd Lynis && sudo ./lynis audit system -Q
-  - sleep 10
+cache: npm
+
+script: sleep 2
