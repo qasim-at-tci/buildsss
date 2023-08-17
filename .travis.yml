@@ -3,9 +3,6 @@ node_js: lts/*
 os: linux
 dist: focal
 
-env:
-  global:
-    - FOO=a
 addons:
   apt:
     packages:
