@@ -5,8 +5,8 @@ script: pyenv --version
 
 jobs:
   include:
-    - language: shell
-    - language: minimal
+    #- language: shell
+    #- language: minimal
     - language: python
-    - language: generic
+    #- language: generic
 ###
