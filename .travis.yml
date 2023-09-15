@@ -10,4 +10,3 @@ addons:
 
 script: sleep 2
 ###
-if: env(FOO) =~ [ABC]
