@@ -1,12 +1,12 @@
-language: node_js
-node_js: lts/*
 os: linux
 dist: focal
+install: skip
+script: pyenv --version
 
-addons:
-  apt:
-    packages:
-      - ca-certificates
-
-script: sleep 2
+jobs:
+  include:
+    - language: shell
+    - language: minimal
+    - language: python
+    - language: generic
 ###
