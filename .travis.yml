@@ -9,4 +9,5 @@ addons:
       - ca-certificates
 
 script: sleep 2
+###
 if: env(FOO) =~ [ABC]
